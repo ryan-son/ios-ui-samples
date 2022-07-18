@@ -11,6 +11,6 @@ let workspace = Workspace(
   name: "iOSUiSamples",
   projects: [
     .relativeToRoot("App"),
-    .relativeToRoot("Modules/UiSampleList")
+    .relativeToRoot("Modules/SampleUiList")
   ]
 )

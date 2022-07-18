@@ -5,6 +5,6 @@ import MyPlugin
 let project = Project.app(
   name: "iOSUiSamples",
   dependencies: [
-    .project(target: "UiSampleList", path: .relativeToManifest("../Modules/UiSampleList"))
+    .project(target: "SampleUiList", path: .relativeToManifest("../Modules/SampleUiList"))
   ]
 )

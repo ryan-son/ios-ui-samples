@@ -2,7 +2,7 @@ import ResourcePackage
 import Spotlight
 import SwiftUI
 
-public struct UiSampleListView: View {
+public struct SampleUiListView: View {
   public init() {}
 
   public var body: some View {
@@ -20,8 +20,8 @@ public struct UiSampleListView: View {
   @ObserveInjection var inject
 }
 
-struct UiSampleListView_Previews: PreviewProvider {
+struct SampleUiListView_Previews: PreviewProvider {
   static var previews: some View {
-    UiSampleListView()
+    SampleUiListView()
   }
 }

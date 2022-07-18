@@ -2,7 +2,7 @@ import ProjectDescription
 import ProjectDescriptionHelpers
 
 let project: Project = .framework(
-  name: "UiSampleList",
+  name: "SampleUiList",
   dependencies: [
     .target(name: "Spotlight")
   ],
