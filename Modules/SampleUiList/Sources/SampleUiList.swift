@@ -12,16 +12,11 @@ public struct SampleUiListView: View {
           SpotlightView()
         }
       }
-      .navigationTitle("iOS UI Samples")
+      .navigationTitle("Sample UIs")
+      .navigationBarTitleDisplayMode(.inline)
     }
     .enableInjection()
   }
 
   @ObserveInjection var inject
-}
-
-struct SampleUiListView_Previews: PreviewProvider {
-  static var previews: some View {
-    SampleUiListView()
-  }
 }

@@ -1,11 +1,11 @@
 import SwiftUI
-import UiSampleList
+import SampleUiList
 
 @main
 struct IosUiSamplesApp: App {
   var body: some Scene {
     WindowGroup {
-      UiSampleListView()
+      SampleUiListView()
     }
   }
 }

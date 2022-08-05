@@ -18,7 +18,6 @@ public struct SpotlightView: View {
   @ObserveInjection var inject
 }
 
-
 struct SpotlightView_Previews: PreviewProvider {
   static var previews: some View {
     SpotlightView()
